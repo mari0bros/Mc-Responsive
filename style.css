@@ -1,0 +1,87 @@
+/*
+Theme Name: Wp Twitter Bootstrap
+Theme URI: http://www.marioconcina.it/blog/wordpress/wp-bootstrap-wordpress-theme.html
+Description: Include HTML5 and Twitter Bootstrap object framework. From theme option you can customize responsive, fixed or flyuid and many more properties. It's simple, Plug and play!
+Author: Mario Concina
+Author URI: http://www.marioconcina.it/
+Version: 1.0
+Tags: fixed-width, flexible-width, theme-options, right-sidebar, blue, light, silver, gray, white, custom-header, custom-menu
+
+License:
+License URI:
+
+Enjoy!
+*/
+
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background:url('images/bg.png') repeat-x;
+}
+
+.sidebar-nav {
+    padding: 9px 0;
+}
+
+p{ line-height:20px !important; }
+
+.img_header{ margin-bottom:20px; }
+.img_header img{ width:100%; height:auto;}
+.right{ text-align:right; }
+ul.post-info{ list-style-type:none; }
+ul.post-info li{ height:25px; }
+
+.content_home{ margin-bottom:50px; }
+.content_home h3{ height:50px; display:table-cell; vertical-align:bottom; }
+.img_box_home{ width:250px; height:150px; background:#e0e0e0; margin-bottom:15px; overflow:hidden; }
+.img_box_home img{ width:250px; height:auto; }
+
+.subnav {
+    width: 100%;
+    height: 36px;
+    background-color: 
+    #EEE;
+    background-repeat: repeat-x;
+    background-image: -moz-linear-gradient(top, 
+    whiteSmoke 0%, 
+    #EEE 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,
+    whiteSmoke), color-stop(100%,
+    #EEE));
+    background-image: -webkit-linear-gradient(top, 
+    whiteSmoke 0%,
+    #EEE 100%);
+    background-image: -ms-linear-gradient(top, 
+    whiteSmoke 0%,
+    #EEE 100%);
+    background-image: -o-linear-gradient(top, 
+    whiteSmoke 0%,
+    #EEE 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#eeeeee',GradientType=0 );
+    background-image: linear-gradient(top, 
+    whiteSmoke 0%,
+    #EEE 100%);
+    border: 1px solid 
+    #E5E5E5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.nav-menu{ height:50px; }
+
+ul.children{ width:100%; padding-left:10%;  }
+.btn-info a{ color:#ffffff !important; }
+
+ul.children > .row > .span11 > .btn-info { display:none; }
+.tab-content{ overflow:hidden !important; }
+.single-comment:hover{ background:#f5f5f5; }
+
+.social{ text-align:center; }
+.social .share{ margin:10px; padding:3px; font-size:12px; width:50px; margin:auto; }
+
+.wp-caption, .wp-caption-text, .sticky, .gallery-caption, .bypostauthor, .aligncenter{ }
+.alignright{ float:right; margin-left:15px; }
+.alignleft{ float:left; margin-right:15px; }
+
+footer{ border-top:#d0d0d0 2px solid; padding-top: 15px; }
